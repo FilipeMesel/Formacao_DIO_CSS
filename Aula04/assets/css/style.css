@@ -1,0 +1,18 @@
+
+.paragrafo-02 {
+    background: blue;
+    color: white;
+}
+
+.paragrafo-01 {
+    background: red;
+    color: white;
+}
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+.texto-minusculo {
+    text-transform: lowercase;
+}

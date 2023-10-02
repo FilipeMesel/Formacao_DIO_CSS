@@ -1,0 +1,49 @@
+
+.paragrafo-02 {
+    background: blue;
+    color: white;
+}
+
+.paragrafo-01 {
+    background: red;
+    color: white;
+}
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+.texto-minusculo {
+    text-transform: lowercase;
+}
+
+* {
+    font-weight: bold;
+}
+
+[title] {
+    background: pink;
+}
+
+[title = "tenho-titulo4"] {
+    background: gray;
+}
+
+[title ~= "detalhe"] {
+    background: yellow;
+}
+
+[title |= "ifem"] {
+    background: black;
+    color: white;
+}
+
+[title ^= "ini"] {
+    background: orange;
+    color: white;
+}
+
+[title $= "om"] {
+    background: blue;
+    color: white;
+}
